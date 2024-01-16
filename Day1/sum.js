@@ -19,4 +19,15 @@ console.log("Difference is : ",difference);
 console.log("product is : ",product);
 console.log("Quotient is : ",quotient);
 
+let isEqual = x === y;
+let isNotEqual = x !== y;
+let isGreater = x > y;
+let isLessOrEqual = x <= y;
+
+
+console.log("\n\nx == y :" ,isEqual);
+console.log("x != y :" ,isNotEqual);
+console.log("x > y :" ,isGreater);
+console.log("x <= y :" ,isLessOrEqual);
+
 
