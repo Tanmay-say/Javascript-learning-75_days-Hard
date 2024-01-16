@@ -31,3 +31,14 @@ console.log("x > y :" ,isGreater);
 console.log("x <= y :" ,isLessOrEqual);
 
 
+let isTrue1 = true;
+let isTrue2 = false;
+
+let andResult = isTrue1 && isTrue2; // Logical AND
+let orResult = isTrue1 || isTrue2; // Logical OR
+let notResult = !isTrue1; // Logical NOT
+
+
+console.log("\n\nandResult:" ,andResult);
+console.log("orResult :" ,orResult);
+console.log("notResult :" ,notResult);
