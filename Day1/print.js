@@ -8,3 +8,10 @@ console.log("Current date and time is ",dateandtime);
 
 let numbers = [1, 2, 3, 4, 5];
 console.log(numbers);
+
+let person = {
+    name: "John",
+    age: 30,
+    isStudent: false
+  };
+console.log(person);
