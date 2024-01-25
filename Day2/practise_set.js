@@ -16,4 +16,18 @@ console.log(typeof(a+z));
 console.log(typeof(a+y));
 console.log(typeof(z+b));
 
+// Q3 create  a const object in javascript and can ypu change it to hold a number takes .
+
+//Answer NO :-
+
+const answer = {
+    "Teacher" : "ms.leena",
+    "principle" : "mr.tanmay",
+    "student_age" : 18 
+}
+console.log(answer);
+console.log(typeof answer);
+answer = 10 ;
+console.log(answer);
+console.log(typeof answer);
 
