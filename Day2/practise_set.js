@@ -46,3 +46,16 @@ console.log("\n ==========================================\n");
 
 answer["Student 2 Age"] = undefined;
 console.log(answer);
+
+//Q5 write a program to create a word-meaning dictionary of five words .
+
+const dictionary = {
+    appricate : "Tanmay is herhe" ,
+    offerender : "An person who do wrong things ",
+    sympthy : "Bat nahi nbhai" ,
+     GPT :  "Ai bot ",
+    python : "Hello python" 
+}
+console.log(dictionary);
+dictionary["appricate"] = "Tanmay is great ";
+console.log(dictionary);
