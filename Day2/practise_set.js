@@ -27,7 +27,22 @@ const answer = {
 }
 console.log(answer);
 console.log(typeof answer);
-answer = 10 ;
-console.log(answer);
-console.log(typeof answer);
+//answer = 10 ;
+//console.log(answer);
+//console.log(typeof answer);
 
+//Q4 try to add a new key to const object to q3 .
+//Answer :- 
+
+answer["Teacher"] = "Tanmay";
+console.log(answer);
+
+console.log("\n ==========================================\n");
+
+answer["Student 2"] = "Tanmay2";
+console.log(answer);
+
+console.log("\n ==========================================\n");
+
+answer["Student 2 Age"] = undefined;
+console.log(answer);
