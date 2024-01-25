@@ -17,3 +17,13 @@ let g = undefined;
 console.log(a ,b ,c ,d ,e ,f ,g );
 
 console.log(typeof d);
+
+// Objects are non-primitive datatypes 
+
+const item = {
+    "Harry" : true ,
+    "Shubh" : true ,
+    "age" : 18 ,
+    "age>12" : "Tanmay"
+}
+console.log(item["age"]);
