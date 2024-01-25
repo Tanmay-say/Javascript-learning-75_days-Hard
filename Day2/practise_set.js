@@ -59,3 +59,10 @@ const dictionary = {
 console.log(dictionary);
 dictionary["appricate"] = "Tanmay is great ";
 console.log(dictionary);
+
+
+
+// All five questions have been completed Thankyou !! .
+// All five questions have been completed Thankyou !! .
+// All five questions have been completed Thankyou !! .
+// All five questions have been completed Thankyou !! .
