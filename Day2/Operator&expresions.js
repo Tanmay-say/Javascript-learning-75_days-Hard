@@ -25,6 +25,7 @@ console.log("--b is : ", (--b) );
 
 
 
+console.log("======================================================================\n\n");
 
 //Q1 Problem to solve  :- 
 let z = 100 ;
@@ -46,4 +47,36 @@ console.log("z : ",z);
 
 
 
+console.log("======================================================================\n\n");
+//Q2 Problem to solve is inc & dec operations : 
 
+let y = 100 ;
+
+console.log("y++ : ", (y++) );  //101             //print : 100
+console.log("y++ : ", (y++) );  //102             //print : 101
+console.log("--y : ", (--y) );  //101             //print : 101 
+console.log("y-- : ", (y--) );  //100             //print : 101
+console.log("y++ : ", (y++) );  //101             //print : 100
+console.log("y-- : ", (y--) );  //100             //print : 101
+console.log("y++ : ", (y++) );  //101             //print : 100
+console.log("--y : ", (--y) );  //100             //print : 100
+console.log("--y : ", (--y) );  //99             //print : 99
+console.log("++y : ", (++y) );  //100             //print : 100 
+console.log("--y : ", (--y) );  // 99            //print : 99
+console.log("++y : ", (++y) );  // 100            //print : 100
+console.log("y++ : ", (y++) );  // 101            //print : 100
+console.log("y++ : ", (y++) );  // 102            //print : 101
+console.log("y++ : ", (y++) );  // 103            //print : 102
+console.log("++y : ", (++y) );  // 104            //print : 104
+console.log("++y : ", (++y) );  // 105            //print : 105
+console.log("y-- : ", (y--) );  // 104            //print : 105
+console.log("--y : ", (--y) );  // 103            //print : 103
+console.log("--y : ", (--y) );  // 102            //print : 102
+console.log("y-- : ", (y--) );  // 101            //print : 102
+console.log("y++ : ", (y++) );  // 102            //print : 101
+console.log("y++ : ", (y++) );  // 103            //print : 102
+console.log("y-- : ", (y--) );  // 102            //print : 103
+console.log("--y : ", (--y) );  // 101            //print : 101
+console.log("y-- : ", (y--) );  // 100            //print : 101
+
+console.log(y);
