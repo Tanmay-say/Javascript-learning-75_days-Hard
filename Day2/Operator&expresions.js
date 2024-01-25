@@ -107,10 +107,16 @@ console.log(f);
 
 //                           COMPARATOR OPERATOR 
 
-let a = 5 ;
-let b =  "5" ;
-console.log(a != b);   //check the comparision
+let a = 20 ;
+let b =  20 ;
+console.log(a != b);   //check the comparision == !=
 console.log(a == b);
-
-console.log(a !== b);   //need or check the type of variables 
+console.log("======================");
+console.log(a !== b);   //need or check the type of variables === !==
 console.log(a === b);
+console.log("======================");
+console.log(a < b);   //check the > < comparision
+console.log(a > b);
+console.log("======================");
+console.log(a <= b);   //check the <= >= comparision
+console.log(a >= b);
