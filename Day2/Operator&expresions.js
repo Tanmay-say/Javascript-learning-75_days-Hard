@@ -85,17 +85,20 @@ console.log(y);
 
 //                   ASSIGNMENT OPERATOR 
 let a = 1 ;
-a += 5 ;  // a = a + 5
+a += 5 ;                          // a = a + 5
 console.log(a);
 let b = 5 ;
-b %= 5 ;  // a = a + 5
+b %= 5 ;                          // b = b % 5
 console.log(b);
 let c = 1 ;
-c -= 5 ;  // a = a + 5
+c -= 5 ;                         // c = c - 5
 console.log(c);
 let d = 100 ;
-d /= 5 ;  // a = a + 
+d /= 5 ;                        // d = d / 5 
 console.log(d);
 let e = 2 ;
-e *= 5 ;  // a = a + 5
+e *= 5 ;                         // e = e * 5
 console.log(e);
+let f = 5 ;
+f **= 5 ;                         // f = f ** 5
+console.log(f);
