@@ -1,3 +1,4 @@
+/*
 //                                         '"Arithemetic operators"'
 // + : Addition
 // - : Substractions
@@ -80,3 +81,21 @@ console.log("--y : ", (--y) );  // 101            //print : 101
 console.log("y-- : ", (y--) );  // 100            //print : 101
 
 console.log(y);
+*/
+
+//                   ASSIGNMENT OPERATOR 
+let a = 1 ;
+a += 5 ;  // a = a + 5
+console.log(a);
+let b = 5 ;
+b %= 5 ;  // a = a + 5
+console.log(b);
+let c = 1 ;
+c -= 5 ;  // a = a + 5
+console.log(c);
+let d = 100 ;
+d /= 5 ;  // a = a + 
+console.log(d);
+let e = 2 ;
+e *= 5 ;  // a = a + 5
+console.log(e);
