@@ -8,3 +8,12 @@ let y = "is here ";
 console.log(a + z);
 console.log(a + y);
 console.log(z + b);
+
+//Q2 use typeof operator use to find datatype of previous question .
+
+console.log(typeof(a+b));
+console.log(typeof(a+z));
+console.log(typeof(a+y));
+console.log(typeof(z+b));
+
+
