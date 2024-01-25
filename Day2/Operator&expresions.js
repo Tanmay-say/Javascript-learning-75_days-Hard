@@ -84,6 +84,7 @@ console.log(y);
 */
 
 //                   ASSIGNMENT OPERATOR 
+/*
 let a = 1 ;
 a += 5 ;                          // a = a + 5
 console.log(a);
@@ -102,3 +103,14 @@ console.log(e);
 let f = 5 ;
 f **= 5 ;                         // f = f ** 5
 console.log(f);
+*/
+
+//                           COMPARATOR OPERATOR 
+
+let a = 5 ;
+let b =  "5" ;
+console.log(a != b);   //check the comparision
+console.log(a == b);
+
+console.log(a !== b);   //need or check the type of variables 
+console.log(a === b);
