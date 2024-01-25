@@ -106,7 +106,7 @@ console.log(f);
 */
 
 //                           COMPARATOR OPERATOR 
-
+/*
 let a = 20 ;
 let b =  20 ;
 console.log(a != b);   //check the comparision == !=
@@ -120,3 +120,21 @@ console.log(a > b);
 console.log("======================");
 console.log(a <= b);   //check the <= >= comparision
 console.log(a >= b);
+*/
+
+//                           LOGICAL OPERATORS
+let a = 5;
+let b = 6 ;
+
+console.log(a != b && a < b);
+console.log(a != b && a > b); // both should be true
+
+console.log("=============================");
+
+console.log(a != b || a < b);
+console.log(a != b || a > b); //one can be ok
+
+console.log("=============================");
+
+console.log(a < b != false);
+console.log(a != b != false); // fale => true , true => false
