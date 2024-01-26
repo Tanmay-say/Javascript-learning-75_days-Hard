@@ -1,6 +1,6 @@
 let i = 0 ;
 i = Number.parseInt(i);
-do{
+while(true){
 i++;
 console.log("1. For Addition\n");
 console.log("2. For Substraction\n");
@@ -43,7 +43,6 @@ if(conti == 1)
 {
     let z = true;
 }
-else
-break;
-
-}while(true);
+else{
+break;}
+}
