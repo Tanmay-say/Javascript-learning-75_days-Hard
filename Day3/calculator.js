@@ -1,6 +1,5 @@
-let i = 1 ;
-i = Number.parseInt(i);
-while(true){
+let z = true;
+while(z){
 let choice = prompt("Enter your choice\n1. For Addition\n2. For Substraction\n3. For Multiplication\n4. For Division\n5. For Modules\n6. For Exit\n");
 choice = Number.parseInt(choice);
 if(choice < 6){
@@ -26,12 +25,17 @@ switch(choice)
     default : alert("Something went wrong");
     break;
 }
+while(true){
 let conti = prompt("Do you want to continue \n1. To continue \n2. To exit \n");
 if(conti == 1)
 {
     alert("!!! Your are conitnuing !!!");
+    break;
+}else if(conti == 2)
+{ z = false ;
+break;}
+else{alert("!!! Try Again !!!");}
 }
-else{break;}
 
 }
 else if(choice == 6)
