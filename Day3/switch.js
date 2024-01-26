@@ -1,14 +1,22 @@
-let a = 1;
-switch(a)
-{
-    case 1 : console.log("Are are not elligible");
+let age = prompt("Enter the age ");
+age = parseInt(age);
+switch(age){
+    case 12 :
+         console.log("Your age is : ",age);
     break;
-    case 2 : console.log("Are are not elligible");
+    case 13 :
+         console.log("Your age is : ",age);
     break;
-    case 3 : console.log("Are are elligible");
+    case 14 :
+         console.log("Your age is : ",age);
     break;
-    case 4 : console.log("Are are elligible");
+    case 15 :
+         console.log("Your age is : ",age);
     break;
-    default : console.log("Somehing went wrong");
+    case 16 :
+         console.log("Your age is : ",age);
     break;
-} 
+    default :
+     console.log("Your are not special");
+    break;
+}
