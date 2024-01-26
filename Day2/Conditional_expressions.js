@@ -6,7 +6,7 @@ IF...ELSE IF .....ELSE
 */
 
 
-let a = 97;
+let a = 12;
 a = parseInt(a);
 console.log(typeof a);
 if(a > 0)
@@ -28,3 +28,6 @@ console.log("Something went wrong");
 }
 else
 console.log("Age can't be negative");
+
+
+console.log("You can ",a < 18 ? "not drive": "drive");
